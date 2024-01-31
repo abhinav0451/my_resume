@@ -1,0 +1,124 @@
+{
+    "basics": {
+        "name": "Bartosz Jarocki",
+        "label": "Full Stack Engineer",
+        "image": "https://avatars.githubusercontent.com/u/1017620?v=4",
+        "email": "bartosz.jarocki@hey.com",
+        "phone": "+48530213401",
+        "url": "https://jarocki.me",
+        "summary": "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+        "location": {
+            "address": "Wrocław, Poland, CET",
+            "url": "https://www.google.com/maps/place/Wrocław"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "BartoszJarocki",
+                "url": "https://github.com/BartoszJarocki"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "bjarocki",
+                "url": "https://www.linkedin.com/in/bjarocki/"
+            },
+            {
+                "network": "X",
+                "username": "BartoszJarocki",
+                "url": "https://x.com/BartoszJarocki"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Parabol",
+            "position": "Senior Full Stack Developer",
+            "url": "https://parabol.co",
+            "startDate": "2021",
+            "endDate": "2024",
+            "summary": "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL"
+        },
+        {
+            "name": "Clevertech",
+            "position": "Lead Android Developer → Full Stack Developer",
+            "url": "https://clevertech.biz",
+            "startDate": "2015",
+            "endDate": "2021",
+            "summary": "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL"
+        },
+        {
+            "name": "Jojo Mobile",
+            "position": "Android Developer → Lead Android Developer",
+            "url": "https://bsgroup.eu/",
+            "startDate": "2012",
+            "endDate": "2015",
+            "summary": "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress"
+        },
+        {
+            "name": "Nokia Siemens Networks",
+            "position": "C/C++ Developer",
+            "url": "https://www.nokia.com",
+            "startDate": "2010",
+            "endDate": "2012",
+            "summary": "Creating and testing software for LTE base stations"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Wrocław University of Technology",
+            "area": "Control systems engineering and Robotics",
+            "studyType": "Bachelor's Degree",
+            "startDate": "2007",
+            "endDate": "2010"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming",
+            "level": "Master",
+            "keywords": [
+                "JavaScript",
+                "TypeScript",
+                "React/Next.js/Remix",
+                "Node.js",
+                "GraphQL",
+                "Relay",
+                "WebRTC"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Consultly",
+            "startDate": "",
+            "endDate": "",
+            "description": "A platform to build and grow your online business",
+            "highlights": [],
+            "url": "https://consultly.com/"
+        },
+        {
+            "name": "Monito",
+            "startDate": "",
+            "endDate": "",
+            "description": "Browser extension that records everything happening in a web application",
+            "highlights": [],
+            "url": "https://monito.dev/"
+        },
+        {
+            "name": "Jarocki.me",
+            "startDate": "",
+            "endDate": "",
+            "description": "My personal website and blog. Built with Next.js and Notion API",
+            "highlights": [],
+            "url": "https://jarocki.me/"
+        },
+        {
+            "name": "Minimal",
+            "startDate": "",
+            "endDate": "",
+            "description": "Minimalist calendars, habit trackers and planners generator",
+            "highlights": [],
+            "url": "https://useminimal.com/"
+        }
+    ]
+}
