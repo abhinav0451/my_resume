@@ -85,7 +85,7 @@ def work_experience():
                         WORK_EXPERIENCE[0]["name"], class_name="text-base font-bold "
                     ),
                     xt.text(
-                        "Remote", class_name="text-base px-3 bg-[#f3f4f6] rounded-md"
+                        "Remote", class_name="text-sm px-3 font-medium bg-[#f3f4f6] rounded-md"
                     ),
                     class_name="flex gap-4 mt-2 items-center",
                 ),
@@ -114,7 +114,7 @@ def work_experience():
                         ),
                         xt.text(
                             "Remote",
-                            class_name="text-base px-3 bg-[#f3f4f6] rounded-md",
+                            class_name="text-sm font-medium px-3 bg-[#f3f4f6] rounded-md",
                         ),
                         class_name="flex gap-4 mt-2 items-center",
                     ),
