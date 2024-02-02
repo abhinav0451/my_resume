@@ -36,10 +36,12 @@ def basic_section():
             xt.text(
                 BASICS["label"],
                 " focused on building products with extra attention to details",
+                font_family="Noto Sans",
                 class_name="text-[#6b7280] text-base mt-2 lg:text-lg max-w-sm",
             ),
             xt.text(
                 BASICS["location"]["address"],
+                font_family="Noto Sans",
                 class_name="text-sm lg:text-base text-[#6b7280]",
             ),
             xt.box(
@@ -53,7 +55,7 @@ def basic_section():
         xt.box(
             xt.image(src=BASICS["image"], class_name="rounded-lg w-32"),
         ),
-        class_name="flex items-center justify-between",
+        class_name="flex items-center gap-1 justify-between",
     )
     return layout
 
@@ -64,6 +66,7 @@ def about():
             xt.text("About", class_name="font-bold text-2xl lg:text-3xl"),
             xt.text(
                 BASICS["summary"],
+                font_family="Noto Sans",
                 class_name="text-sm lg:text-base max-w-2xl mt-2 text-[#6b7280]",
             ),
         ),
@@ -85,7 +88,8 @@ def work_experience():
                         WORK_EXPERIENCE[0]["name"], class_name="text-base font-bold "
                     ),
                     xt.text(
-                        "Remote", class_name="text-sm px-3 font-medium bg-[#f3f4f6] rounded-md"
+                        "Remote",
+                        class_name="text-sm px-3 font-medium bg-[#f3f4f6] rounded-md",
                     ),
                     class_name="flex gap-4 mt-2 items-center",
                 ),
@@ -99,10 +103,13 @@ def work_experience():
                 class_name="flex justify-between items-center",
             ),
             xt.text(
-                WORK_EXPERIENCE[0]["position"], class_name="text-base mt-1 font-medium "
+                WORK_EXPERIENCE[0]["position"],
+                font_family="Noto Sans",
+                class_name="text-base mt-1 font-medium ",
             ),
             xt.text(
                 WORK_EXPERIENCE[0]["summary"],
+                font_family="Noto Sans",
                 class_name="text-sm lg:text-base text-[#6b7280]",
             ),
             xt.box(
@@ -124,16 +131,18 @@ def work_experience():
                             "- ",
                             WORK_EXPERIENCE[1]["endDate"],
                         ),
-                        class_name="flex text-base items-center",
+                        class_name="flex text-base text-[#6b7280] items-center",
                     ),
                     class_name="flex justify-between items-center",
                 ),
                 xt.text(
                     WORK_EXPERIENCE[2]["position"],
+                    font_family="Noto Sans",
                     class_name="text-base mt-1 font-medium ",
                 ),
                 xt.text(
                     WORK_EXPERIENCE[2]["summary"],
+                    font_family="Noto Sans",
                     class_name="text-sm lg:text-base text-[#6b7280]",
                 ),
                 class_name="mt-2",
@@ -152,16 +161,18 @@ def work_experience():
                             " - ",
                             WORK_EXPERIENCE[2]["endDate"],
                         ),
-                        class_name="flex text-base items-center",
+                        class_name="flex text-base text-[#6b7280] items-center",
                     ),
                     class_name="flex justify-between items-center",
                 ),
                 xt.text(
                     WORK_EXPERIENCE[1]["position"],
+                    font_family="Noto Sans",
                     class_name="text-base mt-1 font-medium ",
                 ),
                 xt.text(
                     WORK_EXPERIENCE[1]["summary"],
+                    font_family="Noto Sans",
                     class_name="text-sm lg:text-base text-[#6b7280]",
                 ),
                 class_name="mt-2",
@@ -180,16 +191,18 @@ def work_experience():
                             " - ",
                             WORK_EXPERIENCE[3]["endDate"],
                         ),
-                        class_name="flex text-base items-center",
+                        class_name="flex text-base text-[#6b7280] items-center",
                     ),
                     class_name="flex justify-between items-center",
                 ),
                 xt.text(
                     WORK_EXPERIENCE[3]["position"],
+                    font_family="Noto Sans",
                     class_name="text-base mt-1 font-medium ",
                 ),
                 xt.text(
                     WORK_EXPERIENCE[3]["summary"],
+                    font_family="Noto Sans",
                     class_name="text-sm lg:text-base text-[#6b7280]",
                 ),
                 class_name="mt-2",
@@ -221,7 +234,7 @@ def education():
                             " - ",
                             EDUCATION_HISTORY[0]["endDate"],
                         ),
-                        class_name="flex text-base items-center",
+                        class_name="flex text-base text-[#6b7280] items-center",
                     ),
                     class_name="flex justify-between items-center",
                 ),
@@ -229,6 +242,7 @@ def education():
                     EDUCATION_HISTORY[0]["studyType"],
                     " in ",
                     EDUCATION_HISTORY[0]["area"],
+                    font_family="Noto Sans",
                     class_name="text-base text-[#6b7280]",
                 ),
                 class_name="mt-2",
@@ -249,33 +263,34 @@ def skills():
             xt.box(
                 xt.text(
                     SKILLS[0]["keywords"][0],
-                    class_name="font-medium bg-[#414652] text-white px-3 lg:text-lg test-base rounded-md",
+                    class_name="bg-[#414652] px-3 rounded-md",
                 ),
                 xt.text(
                     SKILLS[0]["keywords"][1],
-                    class_name="font-medium bg-[#414652] text-white px-3 lg:text-lg test-base rounded-md",
+                    class_name="bg-[#414652] px-3 rounded-md",
                 ),
                 xt.text(
                     SKILLS[0]["keywords"][2],
-                    class_name="font-medium bg-[#414652] text-white px-3 lg:text-lg test-base rounded-md",
+                    class_name="bg-[#414652] px-3 rounded-md",
                 ),
                 xt.text(
                     SKILLS[0]["keywords"][3],
-                    class_name="font-medium bg-[#414652] text-white px-3 lg:text-lg test-base rounded-md",
+                    class_name="bg-[#414652] px-3 rounded-md",
                 ),
                 xt.text(
                     SKILLS[0]["keywords"][4],
-                    class_name="font-medium bg-[#414652] text-white px-3 lg:text-lg test-base rounded-md",
+                    class_name="bg-[#414652] px-3 rounded-md",
                 ),
                 xt.text(
                     SKILLS[0]["keywords"][5],
-                    class_name="font-medium bg-[#414652] text-white px-3 lg:text-lg test-base rounded-md",
+                    class_name="bg-[#414652] px-3 rounded-md",
                 ),
                 xt.text(
                     SKILLS[0]["keywords"][2],
-                    class_name="font-medium bg-[#414652] text-white px-3 lg:text-lg test-base rounded-md",
+                    class_name="bg-[#414652] px-3 rounded-md",
                 ),
-                class_name="flex items-center flex-wrap gap-2 mt-2",
+                font_family="Noto Sans",
+                class_name="flex items-center text-white lg:text-lg font-medium test-base flex-wrap gap-2 mt-2",
             ),
         ),
         class_name="mt-6",
@@ -424,10 +439,11 @@ def projects():
                             "Puppeteer",
                             class_name="font-medium bg-[#f3f4f6] w-24 text-center mt-2 text-sm rounded-md",
                         ),
-                        class_name="border-solid border w-60 h-52 p-3 mt-2 rounded-md border-[#6b7280]/12",
+                        class_name="border-solid border w-60 h-52 p-3 mt-2 rounded-md border-[#6b7280]/12 ",
                     ),
-                    class_name="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-2 md:gap-4 items-center",
-                    # class_name="flex overflow-y-scroll lg:overflow-hidden	gap-2 md:gap-4",
+                    font_family="Noto Sans",
+                    # class_name="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-2 md:gap-4 items-center",
+                    class_name="flex overflow-x-scroll lg:overflow-x-hidden gap-2 md:gap-4",
                 ),
                 class_name="flex",
             ),
@@ -451,5 +467,9 @@ def index() -> xt.Component:
     )
 
 
-app = xt.App()
+app = xt.App(
+    stylesheets=[
+        "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap",
+    ],
+)
 app.add_page(index)
