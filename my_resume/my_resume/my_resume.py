@@ -315,7 +315,7 @@ def projects():
                         ),
                         xt.text(
                             PROJECTS[0]["description"],
-                            class_name="max-w-[200px]",
+                            class_name="max-w-[220px]",
                             font_size="1em",
                         ),
                         xt.box(
@@ -348,7 +348,7 @@ def projects():
                             "React",
                             class_name="font-medium bg-[#f3f4f6] w-14 text-sm text-center  mt-2 rounded-md",
                         ),
-                        class_name="border-solid border w-60 h-52 p-3 mt-2 rounded-md border-[#6b7280]/12",
+                        class_name="border-solid border min-w-[16rem] p-3 mt-2 rounded-md border-[#6b7280]/12",
                     ),
                     xt.box(
                         xt.text(
@@ -358,7 +358,7 @@ def projects():
                         ),
                         xt.text(
                             PROJECTS[1]["description"],
-                            class_name="max-w-[200px]",
+                            class_name="max-w-[220px]",
                             font_size="1em",
                         ),
                         xt.box(
@@ -383,7 +383,7 @@ def projects():
                             ),
                             class_name="flex gap-1 items-center mt-2",
                         ),
-                        class_name="border-solid border w-60 h-52  p-3 mt-2 rounded-md border-[#6b7280]/12",
+                        class_name="border-solid border min-w-[16rem] p-3 mt-2 rounded-md border-[#6b7280]/12",
                     ),
                     xt.box(
                         xt.text(
@@ -393,7 +393,7 @@ def projects():
                         ),
                         xt.text(
                             PROJECTS[2]["description"],
-                            class_name="max-w-[200px]",
+                            class_name="max-w-[220px]",
                             font_size="1em",
                         ),
                         xt.box(
@@ -411,7 +411,7 @@ def projects():
                             ),
                             class_name="flex gap-1 items-center mt-14",
                         ),
-                        class_name="border-solid border w-60 h-52 p-3 mt-2 rounded-md border-[#6b7280]/12",
+                        class_name="border-solid border min-w-[16rem] p-3 mt-2 rounded-md border-[#6b7280]/12",
                     ),
                     xt.box(
                         xt.text(
@@ -421,7 +421,7 @@ def projects():
                         ),
                         xt.text(
                             PROJECTS[3]["description"],
-                            class_name="max-w-[200px]",
+                            class_name="max-w-[220px]",
                             font_size="1em",
                         ),
                         xt.box(
@@ -439,11 +439,11 @@ def projects():
                             "Puppeteer",
                             class_name="font-medium bg-[#f3f4f6] w-24 text-center mt-2 text-sm rounded-md",
                         ),
-                        class_name="border-solid border w-60 h-52 p-3 mt-2 rounded-md border-[#6b7280]/12 ",
+                        class_name="border-solid border min-w-[16rem] p-3 mt-2 rounded-md border-[#6b7280]/12 ",
                     ),
                     font_family="Noto Sans",
-                    # class_name="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-2 md:gap-4 items-center",
-                    class_name="flex overflow-x-scroll lg:overflow-x-hidden gap-2 md:gap-4",
+                    # class_name="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-2 md:gap-4 items-center",
+                    class_name="flex overflow-x-scroll gap-2",
                 ),
                 class_name="flex",
             ),
