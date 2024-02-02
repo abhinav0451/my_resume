@@ -21,7 +21,7 @@ PROJECTS = RESUME_DATA["projects"]
 
 def social_img(src):
     return xt.box(
-        xt.image(src=src, class_name="w-10 "),
+        xt.image(src=src, class_name="w-10"),
         class_name="border-solid border w-10 h-10 flex items-center p-2 rounded-md border-[#6b7280]/12",
     )
 
@@ -37,7 +37,7 @@ def basic_section():
                 BASICS["label"],
                 " focused on building products with extra attention to details",
                 font_family="Noto Sans",
-                class_name="text-[#6b7280] text-base mt-2 lg:text-lg max-w-sm",
+                class_name="text-[#6b7280] text-base mt-2 lg:text-lg max-w-sm md:max-w-md",
             ),
             xt.text(
                 BASICS["location"]["address"],
@@ -442,10 +442,9 @@ def projects():
                         class_name="border-solid border min-w-[16rem] p-3 mt-2 rounded-md border-[#6b7280]/12 ",
                     ),
                     font_family="Noto Sans",
-                    # class_name="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-2 md:gap-4 items-center",
                     class_name="flex overflow-x-scroll gap-2",
                 ),
-                class_name="flex",
+                class_name="flex items-center",
             ),
         ),
         class_name="mt-6",
